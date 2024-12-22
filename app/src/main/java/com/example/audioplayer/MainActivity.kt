@@ -6,12 +6,12 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
-import android.view.View
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import android.Manifest
+import android.view.View
 
 class MainActivity : AppCompatActivity() {
 
@@ -53,14 +53,12 @@ class MainActivity : AppCompatActivity() {
         startService(intent)
     }
 
-    // Метод для кнопки "Next"
     fun nextTrack(view: View) {
         val intent = Intent(this, MusicService::class.java)
         intent.action = "NEXT_TRACK"
         startService(intent)
     }
 
-    // Метод для кнопки "Previous"
     fun previouslyTrack(view: View) {
         val intent = Intent(this, MusicService::class.java)
         intent.action = "PREVIOUS_TRACK"
