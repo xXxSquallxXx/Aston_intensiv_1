@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HardcorePlayer</string>
+    <string name="notifications_enabled">Уведомления включены</string>
+    <string name="notifications_disabled">Уведомления отключены</string>
+    <string name="notifications_ready">Уведомления готовы к работе</string>
+    <string name="notification_title">HardcorePlayer</string>
+    <string name="notification_text">Playing music</string>
+    <string name="notification_previous">Previous</string>
+    <string name="notification_play_pause">Play/Pause</string>
+    <string name="notification_next">Next</string>
+    <string name="notification_channel_name">Music Playback</string>
+    <string name="notification_channel_description">Channel for music playback</string>
+    <string name="app_title">HardcorePlayer</string>
+    <string name="button_previous">Previous</string>
+    <string name="button_play_pause">Play / Pause</string>
+    <string name="button_next">Next</string>
+    <string name="track_1">Nobuo Uematsu - SUCCESSION OF WITCHES (Final Fantasy VIII)</string>
+    <string name="track_2">The Centurians - Bullwinkle [part II]</string>
+    <string name="track_3">Till Lindemann - Du Hast Kein Herz</string>
+</resources>
